@@ -1,1 +1,23 @@
-{}
+{
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/13hvxxnlUcib-wIyY45eMuLTj-_X5AlOB?usp=sharing"
+  },
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_prepare_data": {
+    "dev_texts_shape": [
+      250,
+      61
+    ],
+    "train_labels_shape": [
+      1750,
+      77
+    ]
+  },
+  "test_model": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_646/1579568773.py\", line 59, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_646/1579568773.py\", line 44, in test_model\n    'f1': results_eval['F1'],\n          ~~~~~~~~~~~~^^^^^^\nKeyError: 'F1'\n"
+}
